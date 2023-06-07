@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Georgia, serif;
+}
+
+
+.header{
+    text-align: center;
+    margin-bottom: 48px;
+}
+.logo{
+    max-width: 200px;
+    margin: 8px 0;
+}
+.header p{
+    font-size: 12px;
+    border-top: 2px solid #fee8af;
+    padding: 12px 0;
+    background-color: #fdfbf1;
+}
+p span{
+    font-weight: 900;
+}
+
+
+.Focaccia, .ingredienti, .metodo, footer{
+    text-align: center;
+    max-width: 40%;
+    margin: 0 auto;
+}
+.pizza{
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 8px 16px rgba(0,0,0,.1);
+}
+
+.Focaccia h1{
+    margin-bottom: 24px;
+}
+.Focaccia p{
+    text-align: left;
+    margin-bottom: 12px;
+    font-size: 14px;
+}
+.Focaccia .credit{
+    color: #9a9a9a;
+    width: 100%;
+    text-align: center;
+    margin: 16px 0 24px 0;
+}
+.featured{
+    text-align: left;
+    border-left: 4px solid #ffebbb;
+    padding: 0 8px;
+    margin-bottom: 42px;
+}
+.featured h5{
+    color: #b5460f;
+}
+.featured a{
+    color: #107777;
+}
+
+.ingredienti .Titolo, .metodo .Titolo{
+    text-align: left;
+    padding-bottom: 18px;
+    margin-bottom: 32px;
+    border-bottom: 4px solid #eefcfb;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.ingredienti h4{
+    text-align: left;
+    margin-bottom: 16px;
+}
+.ingredienti li{
+    text-align: left;
+    margin: 0 0 16px 48px;
+    font-size: 16px;
+}
+.ingredienti ul{
+    margin-bottom: 36px;
+}
+
+.metodo ul li{
+    text-align: left;
+    list-style: decimal;
+    margin-left: 48px;
+    margin-bottom: 24px;
+    font-weight: 700;
+}
+.metodo li:nth-child(2){
+    list-style: none;
+    font-weight: 500;
+}
+
+footer{
+    text-align: left;
+    padding-bottom: 24px;
+}
